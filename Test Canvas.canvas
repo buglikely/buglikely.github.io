@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"1b60453c05a822b5","type":"text","text":"Hello World!","x":-127,"y":-259,"width":250,"height":60},
+		{"id":"ecc9dd685dde768f","x":-640,"y":-700,"width":267,"height":400,"type":"file","file":"Photos/Zen Jumping.jpg"},
+		{"id":"2203920cf5a2bcda","x":-706,"y":-229,"width":400,"height":267,"type":"file","file":"Photos/Zen.Pebbles JCPenny Awkward Photo.jpg"},
+		{"id":"9ac4bf302cb23792","x":-220,"y":-660,"width":400,"height":267,"type":"file","file":"Photos/Pebbles Waving.jpg"},
+		{"id":"34e61b25bcf9cfef","x":123,"y":-95,"width":400,"height":267,"type":"file","file":"Photos/Zen Attacking.jpg"}
+	],
+	"edges":[
+		{"id":"3ad10b39c55563ee","fromNode":"1b60453c05a822b5","fromSide":"bottom","toNode":"34e61b25bcf9cfef","toSide":"top"},
+		{"id":"44d439576554112b","fromNode":"1b60453c05a822b5","fromSide":"left","toNode":"2203920cf5a2bcda","toSide":"top"},
+		{"id":"60ce4e035d4ca6b1","fromNode":"1b60453c05a822b5","fromSide":"left","toNode":"ecc9dd685dde768f","toSide":"right"},
+		{"id":"8ed55724e1feb23b","fromNode":"1b60453c05a822b5","fromSide":"top","toNode":"9ac4bf302cb23792","toSide":"bottom"}
+	]
+}
